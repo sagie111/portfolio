@@ -14,9 +14,11 @@
     .button {
       background-color: black;
       color: white;
-      padding: 20px 40px;
+      padding: 20px 55px;
       text-align: center;
-      text-decoration: none;  
+      text-decoration: none; 
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ 
     }
 
 
@@ -26,6 +28,8 @@
 .button:hover{
   background-color: red;
   transition: 1s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
     
 .donate_button_container .dontate_text_right{
@@ -107,9 +111,13 @@ main {
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 
-
   
 }
+  .donate_button {
+    transform: translateY(15px);
+  }
+  
+
 
 </style>
 
@@ -119,7 +127,7 @@ main {
 
 <form action="https://www.paypal.com/donate" method="post" target="_top">
   <input type="hidden" name="hosted_button_id" value="TLMFXNPT3LJQW" />
-  <input type="image" src="https://www.paypalobjects.com/en_US/IL/i/btn/btn_donateCC_LG.gif"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+  <input class="donate_button" type="image" src="https://www.paypalobjects.com/en_US/IL/i/btn/btn_donateCC_LG.gif"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
   <img alt=""  src="https://www.paypal.com/en_IL/i/scr/pixel.gif" width="1" height="1" />
   <div class="dontate_text_right">All rights reserved ©
   </div>
