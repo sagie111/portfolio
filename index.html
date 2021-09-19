@@ -9,6 +9,17 @@
   </main>
   
 
+  <body>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('sagiedvir', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#00b9fe',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
+    </script>
+  </body>
   <style>
 
     .button {
@@ -37,13 +48,18 @@
   display: inline-block;
 }    
     
+
+
+a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
     </style>
 
 <div class="main" id="background"> 
 
-    <b><p style="font-size:50px; font-family:courier; color: black; text-decoration: underline;">First project</p></b>
+    <b><a href="http://xlog.ml/" target="_blank"><p style="font-size:50px; font-family:courier; color: black; text-decoration: underline;">First project</p></a></b>
     <p style="font-size:44px; font-family:courier; color: black;"><a>Xlog is a free command line tool that helps you with daily tasks. Xlog does not collect information about you. It is protected and secure. In addition, we update Xlog almost every week with more options!</p></a>
-    <a class="button" href="http://xlog.ml/" target="_blank"><b>Xlog site</a></b>
     <b><p style="font-size:50px; font-family:courier; color: black; text-decoration: underline;">Second project</p></b>
     <p style="font-size:44px; font-family:courier; color: black;"><a>COMING SOON!!!</p></a>
 
@@ -99,7 +115,7 @@ main {
 }
 
 .main {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,9 +143,9 @@ hr {
 
 
 
-@media screen and (max-height: 845px) {
+@media screen and (max-height: 979px) {
   .main {
-    height: 130vh;
+    height: 100vh;
   }
 }
 
@@ -144,17 +160,5 @@ hr {
 
 
 
-
-<div class="donate_button_container">
-
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-    <input type="hidden" name="hosted_button_id" value="XXAAUKQBHSESY" />
-    <input class="donate_button" type="image" src="https://www.paypalobjects.com/en_US/IL/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-    <img alt=""  src="https://www.paypal.com/en_IL/i/scr/pixel.gif" width="1" height="1" />
-  <div class="dontate_text_right"><b>All rights reserved 2021-2021©</b></div>
-
-  </form>
-  
-</div>
 
   
