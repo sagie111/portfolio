@@ -1,0 +1,28 @@
+body{
+    background-color: wheat;
+}
+
+
+
+
+h1 {
+    font-size:50px; font-family:monospace; color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+
+p {
+    font-size:35px; font-family:courier; color: black;
+    text-align: center;
+        
+}
+
+h2 {
+    margin-top: 150px;
+    font-size:40px; font-family:monospace; color: black;
+    text-align: center;
+}
