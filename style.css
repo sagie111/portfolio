@@ -1,4 +1,8 @@
-body{
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
+body {
     background-color: wheat;
     
 } 
@@ -18,6 +22,8 @@ h1 {
 }
 
 
+
+
 p {
     font-size:35px; font-family:courier; color: black;
     text-align: center;
@@ -35,9 +41,43 @@ h2 {
 
 .Copyright p {
     color: rgb(36, 36, 36);
-    margin-top: 130px;
+    margin-top: 70px;
     font-weight: bold;
     font-size: medium;
     text-align: center;
 
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .column h1{
+    font-size:40px; font-family:monospace; color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: purple;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
 }
