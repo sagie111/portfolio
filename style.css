@@ -39,14 +39,6 @@ h2 {
 
 }
 
-.Copyright p {
-    color: rgb(36, 36, 36);
-    margin-top: 70px;
-    font-weight: bold;
-    font-size: medium;
-    text-align: center;
-
-}
 
 
 * {
@@ -75,6 +67,9 @@ h2 {
     text-decoration: underline;
     text-decoration-color: purple;
   }
+
+
+
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
