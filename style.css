@@ -3,7 +3,10 @@
 
 
 body {
-    background-color: wheat;
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
     
 } 
 
@@ -13,11 +16,9 @@ body {
 
 
 h1 {
-    font-size:50px; font-family:monospace; color: black;
+    font-size:65px; font-family:monospace; color: black;
     text-align: center;
     font-weight: bold;
-    text-decoration: underline;
-
 
 }
 
@@ -51,6 +52,7 @@ h2 {
     width: 33.33%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
+    
   }
   
   /* Clear floats after the columns */
@@ -58,13 +60,13 @@ h2 {
     content: "";
     display: table;
     clear: both;
+    
   }
   
 
   .column h1{
     font-size:40px; font-family:monospace; color: black;
     text-align: center;
-    text-decoration: underline;
     text-decoration-color: purple;
   }
 
