@@ -62,7 +62,7 @@ h2 {
     clear: both;
     
   }
-  
+
 
   .column h1{
     font-size:40px; font-family:monospace; color: black;
@@ -79,17 +79,38 @@ h2 {
     }
 }
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 858px) {
 
     .bulbul h1 {
-      font-size: 45px;
+      font-size: 60px;
     }
 }
 
 
-@media screen and (max-width: 248px) {
+
+
+@media screen and (max-width: 676px) {
+
+  .bulbul h1 {
+    font-size: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+  .bulbul h1 {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 456px) {
 
   .bulbul h1 {
     font-size: 30px;
   }
+
 }
+
