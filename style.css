@@ -78,3 +78,18 @@ h2 {
       width: 100%;
     }
 }
+
+  @media screen and (max-width: 374px) {
+
+    .bulbul h1 {
+      font-size: 45px;
+    }
+}
+
+
+@media screen and (max-width: 248px) {
+
+  .bulbul h1 {
+    font-size: 30px;
+  }
+}
