@@ -5,7 +5,7 @@
     --blue: hsl(212, 86%, 64%);
     --varyDarkBlue: hsl(234, 12%, 34%);
     --grayishBlue: hsl(229, 6%, 66%);
-    --veryLightGray: hsl(0, 0%, 98%);
+    --veryLightGray: cadetblue;
     --weight1: 200;
     --weight2: 400;
     --weight3: 600;
@@ -20,14 +20,10 @@ body {
 }
 
 
-h1:first-of-type {
-    font-weight: var(--weight1);
-    color: var(--varyDarkBlue);
 
-}
 
 h1:last-of-type {
-    color: var(--varyDarkBlue);
+    color: black;
 }
 
 @media (max-width: 400px) {
@@ -53,17 +49,17 @@ p {
 .header p {
     margin: 0 auto;
     line-height: 2;
-    color: var(--grayishBlue);
+    color: white;
 }
 
 
 .box p {
-    color: var(--grayishBlue);
+    color: white;
 }
 
 .box {
     border-radius: 5px;
-    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    box-shadow: 0px 30px 40px -20px ;
     padding: 30px;
     margin: 20px;  
 }
@@ -99,7 +95,7 @@ img {
 }
 
 h2 {
-    color: var(--varyDarkBlue);
+    color: white;
     font-weight: var(--weight3);
 }
 
