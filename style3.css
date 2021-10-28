@@ -16,14 +16,15 @@
 body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    background-color: var(--veryLightGray);
+    background-color: var(--varyDarkBlue);
 }
 
+.sharethis-inline-follow-buttons {
+    color: white;
+}
 
-
-
-h1:last-of-type {
-    color: black;
+h1{
+    color: white;
 }
 
 @media (max-width: 400px) {
