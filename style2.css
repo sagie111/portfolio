@@ -75,9 +75,16 @@ body {
   
   @media screen and (max-width: 700px) {
 
+    
+
+    p {
+      margin-top: 25px;
+    }
+
 
     h1 {
       font-size: 38px;
+      height: 30px;
     }
 
     .container {
@@ -92,12 +99,17 @@ body {
 
     .left {
       order: 1;
+      margin-top: 40px;
+
     }
 
  
     .right {
       order: 1;
+      margin-top: 40px;
+
     }
+    
     span { display: none; }
 
    
