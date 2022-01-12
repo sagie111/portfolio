@@ -19,6 +19,14 @@ body {
     align-items: center;
   }
 
+  .left3 {
+    
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 
   .container {
     display: flex;
