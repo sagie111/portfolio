@@ -35,6 +35,11 @@ button:hover {
     
 }
 
+.BTNS {
+    display: flex;
+    justify-content: center;
+
+}
 
 p {
     font-size: 21px;
@@ -48,11 +53,10 @@ p {
 .center {
 
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     margin-top: -190px;
     margin-left: -120px;
-    width: 263px;
+    width: 300px;
     height: 100px;
 }
-
