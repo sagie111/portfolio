@@ -72,8 +72,8 @@ p {
 
 @media screen and (max-width: 320px) {
     h1 {
-        font-size: 4vmax;
-        margin-left: 20px;
+        font-size: 4.5vmax;
+        margin-left: 30px;
     }
 
     .h1ce {
@@ -83,13 +83,17 @@ p {
 
     button {
         font-size: medium;
+
+    }
+
+    .BTNS {
+        margin-left: 20px;
     }
 
     p {
         font-size:2.5vmax;
         width: 300px;
         padding-left: 5px;
-        padding-right: 5px;
 
     }
   }
