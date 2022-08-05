@@ -72,8 +72,7 @@ p {
 
 @media screen and (max-width: 320px) {
     h1 {
-        font-size: 4.5vmax;
-        margin-left: 30px;
+        font-size: 3.9vmax;
     }
 
     .h1ce {
@@ -91,7 +90,7 @@ p {
     }
 
     p {
-        font-size:2.5vmax;
+        font-size:2.3vmax;
         width: 300px;
         padding-left: 5px;
 
